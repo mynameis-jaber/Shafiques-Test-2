@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shafiques Home Prototype</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+ <section class="header">
+          <!-- The navigation from tab to tab and a the logo naviation -->
+        <nav>
+            <a href="index.html"><img src="Images/logow.png" alt=""></a>
+            <div class="nav-buttons" id="navbuttons">
+                <i class="fa fa-times" onclick="hideMenu"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="order.html">ORDER</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu"></i>
+          </nav>
+
+<div class="btn-box">
+          <h1>Greatest restaurant in town</h1>
+          <p>We're extremely proud to be the longest running indian restaurant, under one family ownership in Worthing.</p>             
+          <a href="order.html" class="hero-btn">Order Now</a>
+</div>
+
+</section>
+
+<!-- Background info and boxes -->
+
+<section class="background">
+    <h1>We believe that if we provide great tasting food, customers will keep coming back.</h1>
+    <p>We believe in using top quality ingredients and ensuring a sustainable business plan is the reason we have been here since 1986. We always aim to always exceed your expectations, and we know that sometimes we won't. So, we ask you to help us improve, and tell us when something is not quite to your standards. We will always take on real feedback and look to adapt ourselves. Ultimately, we have survived because we have been happy to listen and change</p>
+
+    <div class="row">
+        <div class="background-col">
+            <h3>Established in 1986</h3>
+            <p>Serving the community since 1986, and always welcoming our customers like family means we've become a restaurant that's at the very heart of our community.</p>
+        </div>
+        <div class="background-col">
+            <h3>Fresh Food</h3>
+            <p>All our food is created and served with love and care. We only use top quality ingredients and all dishes are freshly made on the day of service. When you dine with us, we promise to deliver the best service along with the best ingredients.</p>
+        </div>
+        <div class="background-col">
+            <h3>Family Owned</h3>
+            <p>All the team at Shafiques like to take the time to build great relationships with you and your family that will last for generations. Since we opened in 1986, our service has been our foundation and we always aim to exceed your expectations.</p>
+        </div>
+    </div>
+
+
+</section>
+
+<!-- Private Hire -->
+
+<section class="privatehire">
+    <h1>Private Hire</h1>
+    <p>Shafiques can cater for internal or external private hire events. We understand that every event will be different so please get in touch and can we give you the best package.</p>
+
+    <div class="row">
+        <div class="privatehire-col">
+            <img src="Images/menu2.jpg" alt="">
+            <div class="overlay">
+                <h3>Modern</h3>
+            </div>
+        </div>
+        <div class="privatehire-col">
+            <img src="Images/customers.jpg" alt="">
+            <div class="overlay">
+                <h3>Family Friendly</h3>
+            </div>
+        </div>
+        <div class="privatehire-col">
+            <img src="Images/phire.jpg" alt="">
+            <div class="overlay">
+                <h3>Relaxing</h3>
+            </div>
+        </div>
+    
+    </div>
+
+</section>
+
+<!-- Call To Action -->
+
+<section class="cta">
+    <h1>For any enquiries please get in touch</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>        
+</section>
+
+
+<!-- Footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Serving the community since 1986, and always welcoming our customers like family means we've <br> become a restaurant that's at the very heart of our community.</p>
+</section>
+
+
+
+
+
+<!-- JavaScript for Toggle Menu -->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
